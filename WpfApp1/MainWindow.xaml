@@ -6,12 +6,13 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Name="Button_1" Width="220" Height="140" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,35,0,0" Content="1" FontSize="80" MouseLeftButtonDown="Button_1_Left_Click"/>
-        <Button Name="Button_2" Width="220" Height="140" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,35" Content="2" FontSize="80"/>
-        <Button Name="Button_3" Width="220" Height="140" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="35,35,35,0" Content="3" FontSize="80"/>
-        <Button Name="Button_4" Width="220" Height="140" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="35,35,35,35" Content="4" FontSize="80"/>
-        <Button Name="Button_5" Width="220" Height="140" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="35,35,0,35" Content="5" FontSize="80"/>
-        <Button Name="Button_6" Width="220" Height="140" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,35" Content="6" FontSize="80"/>
+    <Grid Name="Grid"> 
+        
+        <Button Name="Button_1" Width="220" Height="140" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,35,0,0" Content="1" FontSize="80" PreviewMouseLeftButtonDown="Button_1_Left_Click" PreviewMouseRightButtonDown="Button_1_PreviewMouseRightButtonDown"/>
+        <Button Name="Button_2" Width="220" Height="140" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,35" Content="2" FontSize="80" PreviewMouseLeftButtonDown="Button_2_PreviewMouseLeftButtonDown" PreviewMouseRightButtonDown="Button_2_PreviewMouseRightButtonDown"/>
+        <Button Name="Button_3" Width="220" Height="140" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="35,35,35,0" Content="3" FontSize="80" PreviewMouseLeftButtonDown="Button_3_PreviewMouseLeftButtonDown" PreviewMouseRightButtonDown="Button_3_PreviewMouseRightButtonDown"/>
+        <Button Name="Button_4" Width="220" Height="140" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="35,35,35,35" Content="4" FontSize="80" PreviewMouseLeftButtonDown="Button_4_PreviewMouseLeftButtonDown" PreviewMouseRightButtonDown="Button_4_PreviewMouseRightButtonDown"/>
+        <Button Name="Button_5" Width="220" Height="140" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="35,35,0,35" Content="5" FontSize="80" PreviewMouseLeftButtonDown="Button_5_PreviewMouseLeftButtonDown" PreviewMouseRightButtonDown="Button_5_PreviewMouseRightButtonDown"/>
+        <Button Name="Button_6" Width="220" Height="140" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,35" Content="6" FontSize="80" PreviewMouseLeftButtonDown="Button_6_PreviewMouseLeftButtonDown" PreviewMouseRightButtonDown="Button_6_PreviewMouseRightButtonDown"/>
     </Grid>
 </Window>
